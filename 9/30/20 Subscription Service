@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T19:17:26.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="mGfdX_e4rA6HXv5q2rFv" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-30T20:32:03.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="dGMeQ_ClTxvgLxmJKRwJ" version="13.7.7" type="github">
   <diagram id="BkWRBJDSbRS2ia120kWC" name="Page-1">
     <mxGraphModel dx="2699" dy="1531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
         </mxCell>
         <mxCell id="xZUnbSw0Fo1kPTwy0UrK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="xZUnbSw0Fo1kPTwy0UrK-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-50" y="374.9999999999998" as="sourcePoint" />
+            <mxPoint x="-60" y="375" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xZUnbSw0Fo1kPTwy0UrK-41" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Logs In&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xZUnbSw0Fo1kPTwy0UrK-3">
@@ -18,7 +18,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xZUnbSw0Fo1kPTwy0UrK-4" value="User (John Doe)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="305" width="70" height="150" as="geometry" />
+          <mxGeometry x="-120" y="300" width="70" height="150" as="geometry" />
         </mxCell>
         <mxCell id="xZUnbSw0Fo1kPTwy0UrK-49" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Manage John&#39;s Subscriptions&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xZUnbSw0Fo1kPTwy0UrK-5" target="xZUnbSw0Fo1kPTwy0UrK-43">
           <mxGeometry x="-0.3777" y="35" relative="1" as="geometry">
