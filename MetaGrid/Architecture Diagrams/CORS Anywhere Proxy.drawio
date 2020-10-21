@@ -1,6 +1,6 @@
-<mxfile host="65bd71144e" modified="2020-10-21T17:43:22.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="z1B7rD1UNNe86xkNsvA7">
+<mxfile host="65bd71144e" modified="2020-10-21T17:45:55.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="uGGBpVpXss0U6dcE-7qK">
     <diagram id="0ZT2L9oz6mwxwcb9JMNi" name="Page-1">
-        <mxGraphModel dx="3396" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="3396" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -103,6 +103,9 @@
                 </mxCell>
                 <mxCell id="37" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;More Info:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;  &lt;br&gt;&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/Rob--W/cors-anywhere/issues/7#issuecomment-354740387&quot;&gt;https://github.com/Rob--W/cors-anywhere/issues/7#issuecomment-354740387&lt;/a&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/Rob--W/cors-anywhere/issues/39#issuecomment-387690291&quot;&gt;&lt;span&gt;https://github.com/Rob--W/cors-anywhere/issues/39#issuecomment-387690291&lt;/span&gt;&lt;br&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;a href=&quot;https://github.com/Rob--W/cors-anywhere/pull/145#issuecomment-450528241&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;https://github.com/Rob--W/cors-anywhere/pull/145#issuecomment-450528241&lt;/span&gt;&amp;nbsp;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="-1050" y="730" width="530" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;h1&gt;&lt;span&gt;CORS Proxy&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;This diagram shows how requests are proxied to include CORS headers when sent to a REST API if the request's origin (domain) is not whitelistd by the API's server.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-1070" y="-10" width="330" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
