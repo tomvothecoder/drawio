@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T21:35:37.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="QUaHkEM_4DZjqPgez-XH" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T22:33:25.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="GRqZduHJS5TqXjLrZ0na" version="15.5.6" type="github">
   <diagram id="py8pnOXVyba0HBQwXLAq" name="Page-1">
     <mxGraphModel dx="2031" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
         <mxCell id="R2TTAK8F0IiAvs5POAzb-53" value="Raise KeyError" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-230" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R2TTAK8F0IiAvs5POAzb-70" value="3b. Shift Decembers in Time MultiIndex&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="R2TTAK8F0IiAvs5POAzb-70" value="3a. Shift Decembers in Time MultiIndex&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R2TTAK8F0IiAvs5POAzb-72" value="&lt;div style=&quot;text-align: center; font-size: 9px;&quot;&gt;&lt;font face=&quot;helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-size: 9px; background-color: rgb(255, 255, 255);&quot;&gt;if freq == &quot;season&quot; and djf type is continuous&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;fontStyle=1" vertex="1" parent="1">
@@ -109,7 +109,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2TTAK8F0IiAvs5POAzb-148" value="3a. Mask incomplete DJF seasons" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="R2TTAK8F0IiAvs5POAzb-148" value="3b. Mask incomplete DJF seasons" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="230" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R2TTAK8F0IiAvs5POAzb-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="R2TTAK8F0IiAvs5POAzb-162" target="R2TTAK8F0IiAvs5POAzb-26">
