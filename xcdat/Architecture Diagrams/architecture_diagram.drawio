@@ -1,66 +1,100 @@
 <mxfile>
     <diagram id="vOrr-0vj6qPatzsIqZ75" name="Page-1">
-        <mxGraphModel dx="1656" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1973" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="4">
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="260" y="260" as="sourcePoint"/>
                         <mxPoint x="260" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="15">
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="200" y="230" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="5">
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="320" y="230" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="Horizontal Regrid*&lt;br&gt;&lt;b&gt;`regrid(targetGrid)`&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="560" width="120" height="60" as="geometry"/>
+                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="390" as="sourcePoint"/>
+                        <mxPoint x="345" y="560" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="4" target="23">
+                <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="4" target="63" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="xarray" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="200" y="360" width="120" height="60" as="geometry"/>
+                <mxCell id="4" value="xarray" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="370" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="3">
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;" parent="1" source="5" target="66" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="5" target="24">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="5" value="TBD Regridding library &lt;br&gt;(SciPY, xESMF)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="xESMF &lt;br&gt;(or TempestRemap)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="370" width="120" height="60" as="geometry"/>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="15" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-70" y="570" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="Statistical metrics&lt;br&gt;&lt;b&gt;`statistics.&amp;lt;stddev, root_mean, square_error, correlation&amp;gt;`&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-155" y="560" width="150" height="60" as="geometry"/>
+                <mxCell id="15" value="SciPy/NumPy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="-60" y="370" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="15" target="14">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" value="SciPy/NumPy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-130" y="380" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value="Climatology&lt;br&gt;&lt;b&gt;`climatology(climoType)`&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="560" width="140" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="xCDAT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="22" value="xCDAT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="200" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Departures*&lt;br&gt;&lt;b&gt;`deparatures(climatology)`&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="265" y="560" width="160" height="60" as="geometry"/>
+                <mxCell id="38" value="&lt;i&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;* &lt;/font&gt;Denotes might abstract with an xCDAT wrapper method or just use library's API directly&lt;/i&gt;" style="text;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-290" y="585" width="175" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Vertical Regrid&lt;br&gt;&lt;b&gt;`vertical_regrid(targetGrid)`&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="560" width="160" height="60" as="geometry"/>
+                <mxCell id="62" value="Statistical metrics&lt;font style=&quot;font-size: 14px&quot;&gt;*&lt;/font&gt;&lt;br&gt;&lt;b&gt;`statistics.&amp;lt;stddev, root_mean, square_error, correlation&amp;gt;`&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="-80" y="580" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="&lt;i&gt;* Denotes TBD abstracting to a xCDAT wrapper method or using library's API directly&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="680" width="350" height="20" as="geometry"/>
+                <mxCell id="63" value="&lt;span&gt;Climatology&lt;/span&gt;&lt;br&gt;&lt;b&gt;`climatology(climoType)`&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="580" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Departures&lt;font style=&quot;font-size: 14px&quot;&gt;*&lt;/font&gt;&lt;br&gt;&lt;b&gt;`deparatures(climatology)`&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="580" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Horizontal Regrid&lt;font style=&quot;font-size: 14px&quot;&gt;*&lt;/font&gt;&lt;br&gt;&lt;b&gt;`regrid(targetGrid)`&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;span&gt;Vertical Regrid&lt;/span&gt;&lt;br&gt;&lt;b&gt;`vertical_regrid(targetGrid)`&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="580" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="group;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-240" y="180" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="" style="group" parent="90" vertex="1" connectable="0">
+                    <mxGeometry width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Requirement/Module" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="93" vertex="1">
+                    <mxGeometry x="30" y="30" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Dependency" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="93" vertex="1">
+                    <mxGeometry x="10" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="93" vertex="1">
+                    <mxGeometry width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=none;" parent="93" source="80" target="80" edge="1">
+                    <mxGeometry as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="93" vertex="1">
+                    <mxGeometry y="30" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;span id=&quot;docs-internal-guid-8bb9e2c3-7fff-5ca4-1591-3e1ce34edb6f&quot;&gt;&lt;span style=&quot;font-size: 12pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(102 , 102 , 102) ; background-color: transparent ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline&quot;&gt;xCDAT Library Overview&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="150" y="130" width="250" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
