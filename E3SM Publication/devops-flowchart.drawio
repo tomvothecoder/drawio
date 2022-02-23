@@ -1,34 +1,21 @@
 <mxfile host="65bd71144e">
     <diagram id="xA6ipHKzNDfODZv20NMS" name="Page-1">
-        <mxGraphModel dx="1901" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2922" dy="2275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="-130" y="340" width="960" height="730" as="geometry"/>
+                    <mxGeometry x="-110" y="320" width="1340" height="1000" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="-130" y="-50" width="960" height="390" as="geometry"/>
+                    <mxGeometry x="-130" y="-50" width="1340" height="390" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="2" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="81" value="Latest Stable&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="14">
+                <mxCell id="81" value="Latest Stable&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1" connectable="0">
                     <mxGeometry x="0.5767" relative="1" as="geometry">
                         <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;" parent="1" source="2" target="5" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="360" y="180"/>
-                            <mxPoint x="470" y="180"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="82" value="Latest Master/Dev Branch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="40">
-                    <mxGeometry x="0.5145" y="1" relative="1" as="geometry">
-                        <mxPoint x="-1" y="18" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="49" value="Make code changes" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="2" target="48" edge="1">
@@ -37,33 +24,17 @@
                 <mxCell id="2" value="&lt;i&gt;&lt;b&gt;e3sm_to_cmip&lt;/b&gt;&lt;/i&gt;&lt;br&gt;repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
                     <mxGeometry x="300" y="60" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="169" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="3" target="138">
+                <mxCell id="3" value="&lt;b&gt;&lt;i&gt;/esgfpub &lt;/i&gt;&lt;br&gt;(scripts)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="1110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4" target="28">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;b&gt;&lt;i&gt;esgfpub&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="800" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="128" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="4" target="83">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="290" y="535" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="233" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4" target="164">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Anaconda Release &lt;br&gt;(e.g., v1.8.1)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="250" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="5" target="34" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0.29;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="5" target="70">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="178" value="&lt;span&gt;pip install .&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="88">
-                    <mxGeometry x="-0.1938" y="1" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="5" value="Local build&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="260" width="80" height="80" as="geometry"/>
+                    <mxGeometry x="320" y="250" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="6" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -74,23 +45,17 @@
                 <mxCell id="6" value="Development Env&amp;nbsp;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Name: &quot;e3sm_to_cmip_dev&quot;&lt;br&gt;File: dev.yml&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
                     <mxGeometry x="520" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="28" target="4" edge="1">
+                <mxCell id="229" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="28" target="30">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="Build Recipe&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;conda-forge feedstock (meta.yaml)&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="250" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="30" target="28" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry x="540" y="250" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="Includes required package dependencies" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-50" y="260" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="700" y="260" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="Includes required package dependencies" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="690" y="110" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" value="Does &lt;u&gt;not&lt;/u&gt; include package dependencies &lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;(not listed in setup.py `install_requires`)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="265" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="48" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -107,118 +72,139 @@
                     <mxGeometry x="540" y="-30" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="e3sm_to_cmip&#10;Development" style="align=left;fontSize=16;fontStyle=1;strokeColor=none;fillColor=none;fontColor=#4D4D4D;spacingTop=-8;resizable=0;labelBorderColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="-50" y="-30" width="180" height="30" as="geometry"/>
+                    <mxGeometry x="-100" y="-30" width="180" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="65" value="esgfpub/warehouse&#10;Development" style="align=left;fontSize=16;fontStyle=1;strokeColor=none;fillColor=none;fontColor=#4D4D4D;spacingTop=-8;resizable=0;labelBackgroundColor=none;labelBorderColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="-50" y="350" width="180" height="30" as="geometry"/>
+                    <mxGeometry x="-110" y="360" width="180" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="Does &lt;u&gt;not&lt;/u&gt; include package dependencies &lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;(not listed in setup.py `install_requires`)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="680" y="-20" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="70" target="75" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="520" y="412.5" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="70" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="410" width="60" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="75" value="&lt;span&gt;I propose we no longer follow this workflow with the warehouse to avoid getting out of sync with the official releases of e2c.&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=10;fontStyle=1" parent="1" vertex="1">
-                    <mxGeometry x="550" y="430" width="250" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="165" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="83" target="164">
+                <mxCell id="220" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="83" target="164">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" value="Production Env&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Name: &quot;warehouse_prod&quot;&lt;br&gt;File: prod.yml&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-                    <mxGeometry x="160" y="557.5" width="120" height="60" as="geometry"/>
+                <mxCell id="83" value="Production Env&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Name: &quot;warehouse_prod&quot;&lt;br&gt;File: prod.yml&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="500" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="99" target="138">
+                <mxCell id="168" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="3" edge="1" source="99">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="290" y="840.0000000000005" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="168" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="99" target="3">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="99" value="&lt;i&gt;&lt;b&gt;esgfpub&lt;/b&gt;&lt;br&gt;repository&lt;br&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="990" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="158" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="138" target="154">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="179" value="Latest Stable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="158">
-                    <mxGeometry x="0.0761" y="1" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="162" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="138" target="161">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="510" y="810.0000000000005" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="180" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Dev%20branch%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22509.727272727273%22%20y%3D%22830.0000000000005%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="162">
-                    <mxGeometry x="-0.1283" y="-1" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="181" value="Dev branch,&lt;br&gt;&amp;nbsp;Make code changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="162">
-                    <mxGeometry x="-0.0868" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="176" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.592;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="138" target="157">
-                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="990" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="365" y="760"/>
-                            <mxPoint x="531" y="760"/>
+                            <mxPoint x="360" y="1050"/>
+                            <mxPoint x="240" y="1050"/>
+                            <mxPoint x="240" y="1110"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="191" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Merge%20changes%20to%20master%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3BfontSize%3D9%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22360.030303030303%22%20y%3D%22150.30303030303025%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3EMerge&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="176">
-                    <mxGeometry x="-0.8826" y="-1" relative="1" as="geometry">
+                <mxCell id="193" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="99" target="138" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="360" y="1050"/>
+                            <mxPoint x="490" y="1050"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="214" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="99" target="210">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="660" y="960"/>
+                            <mxPoint x="660" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="232" value="Warehouse Publishing &lt;br&gt;(publish)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="214">
+                    <mxGeometry x="-0.6982" y="2" relative="1" as="geometry">
+                        <mxPoint x="143" y="-108" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="217" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="99" target="161">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="Code Development" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="217">
+                    <mxGeometry x="-0.3667" y="4" relative="1" as="geometry">
+                        <mxPoint x="-87" y="-104" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="218" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="99" target="154">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="Warehouse Operations &lt;br&gt;(extract, validate, postprocess)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="218">
+                    <mxGeometry x="-0.0625" y="2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="138" value="&lt;b&gt;&lt;i&gt;warehouse&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="305" y="800" width="120" height="60" as="geometry"/>
+                <mxCell id="99" value="&lt;i&gt;&lt;b&gt;esgfpub&lt;/b&gt;&lt;br&gt;repository&lt;br&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="930" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="159" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="154" target="83">
+                <mxCell id="202" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="138" target="197" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" value="Anaconda Release &lt;br&gt;(e.g., v0.1.0)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="650" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="166" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="157" target="164">
+                <mxCell id="204" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="138" target="198" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="157" value="Development Env&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Name: &quot;warehouse_dev&quot;&lt;br&gt;File: dev.yml&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-                    <mxGeometry x="460" y="557.5" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="173" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="161" target="157">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="175" value="&lt;span&gt;pip install .&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="173">
-                    <mxGeometry x="-0.3352" y="1" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
+                <mxCell id="209" value="References" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="204" vertex="1" connectable="0">
+                    <mxGeometry x="-0.62" y="-3" relative="1" as="geometry">
+                        <mxPoint x="2" y="-3" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="161" value="Local build&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="790" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="164" value="&lt;u&gt;Example deps&lt;/u&gt;&lt;br&gt;e3sm_to_cmip&lt;br&gt;nco&lt;br&gt;autocurator&lt;br&gt;esgconfigparser&lt;br&gt;esgcet&lt;br&gt;zstash&lt;br&gt;&lt;br&gt;&lt;u&gt;Extra repos (git clone)&lt;/u&gt;&lt;br&gt;CMOR handlers&lt;br&gt;CMIP Table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
-                    <mxGeometry x="315" y="497.5" width="100" height="180" as="geometry"/>
-                </mxCell>
-                <mxCell id="187" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="186" target="154">
+                <mxCell id="207" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="138" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="Build Recipe&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;conda-forge feedstock (meta.yaml)&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="650" width="80" height="80" as="geometry"/>
+                <mxCell id="208" value="References" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="207" vertex="1" connectable="0">
+                    <mxGeometry x="0.15" y="-2" relative="1" as="geometry">
+                        <mxPoint x="9" y="2" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="189" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="188" target="186">
+                <mxCell id="138" value="&lt;b&gt;&lt;i&gt;/warehouse &lt;/i&gt;(workflows)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="1110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="154" target="83" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="188" value="Includes required package dependencies" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-100" y="660" width="120" height="60" as="geometry"/>
+                <mxCell id="154" value="Anaconda Release &lt;br&gt;(e.g., v0.1.0)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="690" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="157" target="164">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="Development Env&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Name: &quot;warehouse_dev&quot;&lt;br&gt;File: dev.yml&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="161" target="157">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="Local build&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="690" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="&lt;u&gt;Example deps&lt;/u&gt;&lt;br&gt;e3sm_to_cmip&lt;br&gt;nco&lt;br&gt;zstash" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="497.5" width="100" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="186" target="154" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="Build Recipe&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;feedstock (meta.yaml)&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="690" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=9;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="188" target="186" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="Includes required package dependencies" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="&lt;i&gt;&lt;b&gt;CMIP6-Metadata&lt;br&gt;&lt;/b&gt;E3SM repository&lt;br&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="1050" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="&lt;b&gt;cmip6-cmor-tables&lt;/b&gt;&lt;br&gt;&lt;i&gt;PCMDI Repository&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="1150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="210" target="211">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="Publishing Env&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Name: &quot;warehouse_pub&quot;&lt;br&gt;File: pub.yml&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="497.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="&lt;u&gt;Example deps&lt;/u&gt;&lt;br&gt;autocurator&lt;br&gt;esgconfigparser&lt;br&gt;esgcet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="437.5" width="100" height="180" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
